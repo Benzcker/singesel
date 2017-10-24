@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sing, Esel!</title>
+	<link rel="shortcut icon" type="image/x-icon" href="pictures/esel-blank.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="header"></div>
+	<div id="body">
+		<span id="score"><b>Score:</b> 0 </span><span id="highscore"><b>Highscore:</b> 0</span><br />
+		<img src="pictures/esel1.png" alt="Esel1" id="esel1" class="esel" onclick="clickesel(1)">
+		<img src="pictures/esel2.png" alt="Esel2" id="esel2" class="esel" onclick="clickesel(2)"><br />
+		<img src="pictures/esel3.png" alt="Esel3" id="esel3" class="esel" onclick="clickesel(3)">
+		<img src="pictures/esel4.png" alt="Esel4" id="esel4" class="esel" onclick="clickesel(4)"><br /><br /><br />
+
+		<button onclick="start()" id="startbutton" type="button" class="btn btn-success">Start</button><br /><br/>
+		<center>
+			<div id="progress"></div>
+		<br />
+		<div id="zuhoeren">ZUHÖREN</div>
+		<br /><br />
+		<div id="description">Dir wird eine Melodie von harmonisch singenden Eseln vorgespielt. Wie viel noch kommt, siehst du am grünen Balken. Wenn der Balken abgelaufen ist, musst du die Melodie nachspielen. Mit der Zeit werden es immer mehr Töne, die du nachspielen musst. <br /><br />Wenn du zu schnell spielst oder dein PC gerade zu wenig Leistung hat, kann es sein, dass du die Esel nicht hörst. Das ist überhaupt nicht schlimm, die Esel wissen trotzdem, dass sie gerade hätten singen sollen.</div>
+		</div>
+		</center>
+</body>
+<script src="main.js" type="text/javascript"></script>
+
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":null,"theme":"dark-bottom"};
+</script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
+<!-- End Cookie Consent plugin -->
+
+
+</html>

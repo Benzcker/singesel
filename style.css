@@ -1,0 +1,27 @@
+#body{
+	text-align: center;
+}
+
+.esel{
+	width: 200px;
+	height: 200px;
+}
+
+#progress{
+	width: 80%;
+	height: 20px;
+	background-color: #00FF00;
+}
+
+#description{
+	background-color: #979797;
+	border-radius: 5px;
+	width: 90%;
+}
+
+#zuhoeren{
+	font-weight: bolder;
+	color: #00AA00;
+	font-size: 20px;
+	height: 40px;
+}
